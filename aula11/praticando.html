@@ -16,13 +16,14 @@
         function verificar() {
             var pais = document.querySelector('input#vpais')
             var res = document.querySelector('div#res')
-            var busc = (pais.value)
-           
+            var buscar = (pais.value)
 
-            if (res = Brasil) { res.innerHTML = '<p>Voçê é Brasileiro</p>'
+            if (buscar == 'Brasil') {
+                res.innerHTML += '<p>Voçê é Brasileiro !</p>'
             } else {
-                'Voçê é estrangeiro'
+                res.innerHTML += '<p>Voçê é estrangeiro</p>'
             }
+             
 
         }
     </script>
