@@ -1,8 +1,8 @@
-var fortuna = 220
+var fortuna = 5
 console.log(`parabéns sua fortuna é de ${fortuna} reais`)
 if (fortuna < 100) {
     console.log('Voçê é rico')
-} else if (fortuna = 100) {
+} else if (fortuna == 100) {
     console.log('Voçê é milionario')
 } else {
     console.log('voçê é bilionário')
